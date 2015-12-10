@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+div{display: block;}
+
+.row{
+    overflow:auto;
+	position:relative;
+    width: 100%;
+}
+.row > [class*="col-"]{
+    float:left;
+    height:100%;
+    margin:0;
+    overflow-x:hidden;
+}
+/*.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}*/
+.childPurpleBorder > div{border:3px outset purple;}
+.childBigBorder > div{border:30px outset grey;}
+.redborder{border: 3px solid red;}
+.greenborder{border:5px solid green;}
+.col-1 {width: 8.3333%;}
+.col-2 {width: 16.6666%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.3333%;}
+.col-5 {width: 41.6666%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.3333%;}
+.col-8 {width: 66.6666%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.3333%;}
+.col-11 {width: 91.6666%;}
+.col-12 {width: 100%;}
