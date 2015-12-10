@@ -21,13 +21,8 @@ div{display: block;}
     margin:0;
     overflow-x:hidden;
 }
-/*.row:after {
-    content: "";
-    clear: both;
-    display: block;
-}*/
 .childPurpleBorder > div{border:3px outset purple;}
-.childBigBorder > div{border:30px outset grey;}
+.childBigBorder > div{border:20px outset grey;}
 .redborder{border: 3px solid red;}
 .greenborder{border:5px solid green;}
 .col-1 {width: 8.3333%;}
